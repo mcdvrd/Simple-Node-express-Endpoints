@@ -1,5 +1,8 @@
-
+Matthew Dillon
+mcdvrd@gmail.com
+-------------------------------------------
 README for NWEA blog API code exercise.
+-----------------------------------------
 
 Copy (clone) to local directory.
 
@@ -42,7 +45,3 @@ Included:
 
 	test-api.js - Cleverly-named Javascript application to test the API asynchronously.
 
-
-Matthew Dillon
-mcdvrd@gmail.com
--------------------------------------------
