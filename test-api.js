@@ -36,7 +36,7 @@ requestApi(api, baseMethod, null)
 	let timeStamp = new Date();
 
 	// Now POST new 
-	basePath = "http://localhost:3000";
+	basePath = "http://localhost:" + port;
 	baseApi = "/post";
  	baseMethod = "POST";
  	api = basePath + baseApi;
