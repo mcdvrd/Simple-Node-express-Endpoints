@@ -45,7 +45,7 @@ Or using CURL:
 ```
 > curl -H "Content-Type: application/json" -X POST -d '{"title": "title TEST", "body": "body TEST"}' http://localhost:3000/post
 
-> curl -X GET http://localhost:3000/post
+> curl -X GET http://localhost:3000/posts
 ```
 
 
