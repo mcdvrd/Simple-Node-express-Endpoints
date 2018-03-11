@@ -83,7 +83,25 @@ requestApi(api, baseMethod, null)
   .catch(console.log.bind(console));
 
 
-// Function to return a Promise encapsulating an http request
+
+//////////////////////////////////////////////////////////////////
+// requestApi
+//
+//  api:    url to call - eg: http://localhost/hello
+//  method: GET, POST, DELETE
+//  body:   Payload to send to server
+//  @Returns: Promise.resolve(results) or 
+//            Promise.reject(err)
+//
+// Function to return a Promise encapsulating an http request. 
+// Since http requests do not block, creating a sequence
+// of operations requires a blocking construct; like the
+// ES6 Promise().
+// By making this return a Promise(); the function-call can
+// be "chained" using requestApi().then(). This will 
+// create a "chain" of operations to be completed sequentially.
+//
+/////////////////////////////////////////////////////////////////
 function requestApi(api, method, body) {
 
   api = api || "/posts";
