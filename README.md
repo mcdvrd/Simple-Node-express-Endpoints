@@ -1,10 +1,20 @@
 Matthew Dillon
 mcdvrd@gmail.com
--------------------------------------------
+-----------------------------------------
 README for NWEA blog API code exercise.
 -----------------------------------------
 
-Copy (clone) to local directory.
+Overview:
+Implement two endpoints:
+1. GET /posts
+2. POST /post {"title": "XXX", "body": "YYYY"}
+
+
+Copy (clone) the contents of this repository to a local directory:
+```
+> git clone https://github.com/mcdvrd/nwea-api.git folder-name
+> cd folder-name
+```
 
 To install: 
 ```

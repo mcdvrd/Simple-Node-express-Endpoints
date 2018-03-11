@@ -3,7 +3,7 @@
 //
 // Node application to test our NWEA Blog API
 //
-// Asynchronous Promis-based test of the two
+// Asynchronous Promise-based test of the two
 // operations defined by our endpoints:
 //     GET /posts - return list of posts
 //	   POST /post - add a new blog to our db
