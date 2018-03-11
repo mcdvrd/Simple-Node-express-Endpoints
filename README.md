@@ -1,6 +1,8 @@
 
 README for NWEA blog API code exercise.
 
+Copy (clone) to local directory.
+
 To install: 
 ```
 > npm install
@@ -9,6 +11,10 @@ To install:
 To run the server:
 ```
 > npm start
+```
+The server will run on port 3000. To change this, set your environment value PORT to the desired value:
+```
+> export PORT=9001
 ```
 
 To test the API:
@@ -21,6 +27,14 @@ To test the API:
 ```
 > npm test
 ```
+
+Or using CURL:
+```
+> curl -H "Content-Type: application/json" -X POST -d '{"title": "title TEST", "body": "body TEST"}' http://localhost:3000/post
+
+> curl -X GET http://localhost:3000/post
+```
+
 
 Included:
 
