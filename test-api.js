@@ -15,8 +15,9 @@
 const request = require('request');
 
 let port = process.env.PORT || 3000;
+let server = process.env.SERVER || "http://localhost:";
 
-let basePath = "http://localhost:" + port;
+let basePath = server + port;
 let baseApi = "/posts";
 let baseMethod = "GET";
 let api = basePath + baseApi;
@@ -36,7 +37,7 @@ requestApi(api, baseMethod, null)
 	let timeStamp = new Date();
 
 	// Now POST new 
-	basePath = "http://localhost:" + port;
+	basePath = server + port;
 	baseApi = "/post";
  	baseMethod = "POST";
  	api = basePath + baseApi;
@@ -56,7 +57,7 @@ requestApi(api, baseMethod, null)
 
   	console.log("POST completed - no errors.");
 
-	basePath = "http://localhost:" + port;
+	basePath = server + port;
 	baseApi = "/posts";
 	baseMethod = "GET";
 
