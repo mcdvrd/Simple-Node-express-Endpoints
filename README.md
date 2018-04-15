@@ -1,8 +1,7 @@
 Matthew Dillon
-mcdvrd@gmail.com
------------------------------------------
-README for NWEA blog API code exercise.
------------------------------------------
+----------------------------------------------------------
+README for Simple Blog service using Node.js and express.
+----------------------------------------------------------
 
 Overview:
 Implement two endpoints:
